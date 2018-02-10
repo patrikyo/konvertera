@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Orbitron:900');
+*{
+  box-sizing : border-box;
+}
+body{
+  background-color :  #333333;
+}
+.rubrik{
+  text-align : center;
+  font-size : 50px;
+  color : white;
+  text-decoration : underline grey;
+  font-family : 'Orbitron' , san-serif;
+}
+.hastighet{
+  height :30vh;
+  border-bottom : 4px solid #76FF03; 
+}
+.hastighet input[type="number"]{
+  width : 100%;
+  height: 100%;
+  text-align : center;
+  font-size : 5em;
+  font-weight: bold;
+  background-color :  #333333;
+  border : 0;
+  font-family: 'Exo 2', sans-serif;
+  outline:none;
+}
+::placeholder{
+  color :  #262626;
+}
+@media (max-width: 450px){
+.rubrik{
+  font-size: 20px;
+}
+.hastighet input[type="number"]{
+  font-size: 2em;   
+}
+::placeholder{
+  font-size: 2em;     
+}
+}
